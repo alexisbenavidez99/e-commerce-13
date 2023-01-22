@@ -11,9 +11,8 @@ router.get('/', async (req, res) => {
     const productData = await Product.findAll({
       include: [{ model: Category }, { model: Tag }],
     });
-    res.status(200).json(productData);
-
-    return res.json(productData);
+    
+    return res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
   }
@@ -27,9 +26,8 @@ router.get('/:id', async (req, res) => {
     const productData = await Product.findOne(req.params.id, {
       include: [{ model: Category }, { model: Tag }],
     });
-    res.status(200).json(productData);
-
-    return res.json(productData);
+    
+    return res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
   }
@@ -119,8 +117,7 @@ router.delete('/:id', async (req, res) => {
       },
     });
 
-    res.status(200).json(productData);
-    return res.json(productData);
+    return res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
   }
