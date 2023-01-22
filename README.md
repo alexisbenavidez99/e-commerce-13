@@ -17,6 +17,8 @@ A MySQL back-end application that uses Express.js and Sequelize for a retail com
 - Clone repo down to your local machine.
 - Open in intergrated terminal and install `express`, `mysql2`, `sequelize` and `dotenv`. 
 - Enter credentials in .env file.
+- Open intergrated terminal in `db` folder and run `mysql -u root -p` and enter password
+- In `server.js` terminal, run `npm run seed` and then run `node server.js`.
 
 ## Usage
 
