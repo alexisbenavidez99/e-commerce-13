@@ -38,5 +38,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Preview
 
+[e-commerce.webm](https://user-images.githubusercontent.com/113260005/213948634-692f884d-c63a-49ff-84d3-5679e406b72c.webm)
+
 ## License
 See license in repo
